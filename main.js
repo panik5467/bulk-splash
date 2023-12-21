@@ -7,16 +7,16 @@ const ProgressBar = require("progress");
   let basePath = "./out";
 
   const options = {
-    random: true,
-    apiKey: "my-unsplash-api-key",
-		search: "animal",
-		amount: 20,
-		featured: false,
-		width: 300,
-		height: 300,
-		orientation: "squarish",
-		nameScheme: 1,
-		saveCredits: false
+     random: true,
+     apiKey: "my-unsplash-api-key",
+     search: "animal",
+     amount: 20,
+     featured: false,
+     width: 300,
+     height: 300,
+     orientation: "squarish",
+     nameScheme: 1,
+     saveCredits: false
   }
  
  console.log(options)
